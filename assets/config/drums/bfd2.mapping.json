@@ -1,0 +1,20 @@
+{
+  "id": "bfd2",
+  "mappings": [
+    {
+      "piece": "kick1",
+      "articulation": "hit",
+      "note": "C1"
+    },
+    {
+      "piece": "snare1",
+      "articulation": "hit",
+      "note": "D1"
+    },
+    {
+      "piece": "hihat",
+      "articulation": "hit",
+      "note": "E1"
+    }
+  ]
+}

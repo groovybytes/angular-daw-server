@@ -1,0 +1,20 @@
+{
+  "id": "drumkit1",
+  "samples": [
+    {
+      "piece": "kick1",
+      "url": "kick1.wav",
+      "articulation": "hit"
+    },
+    {
+      "piece": "snare1",
+      "url": "snare1.wav",
+      "articulation": "hit"
+    },
+    {
+      "piece": "hihat",
+      "url": "hihat.wav",
+      "articulation": "hit"
+    }
+  ]
+}
