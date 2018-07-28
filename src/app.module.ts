@@ -6,6 +6,7 @@ import {ConfigService} from "./services/config.service";
 import * as winston from "winston";
 import {format} from "winston";
 import {LoggingController} from "./controllers/logging.controller";
+import { TypeOrmModule } from '@nestjs/typeorm';
 const Fuse = require("fuse.js");
 const { combine, timestamp, label, printf } = format;
 
@@ -24,7 +25,9 @@ const logger = winston.createLogger({
   ]
 });
 @Module({
-  imports: [],
+  imports: [
+    TypeOrmModule.forRoot(),
+  ],
   controllers: [AppController,InstrumentinfoController,LoggingController],
   providers: [
     AppService,

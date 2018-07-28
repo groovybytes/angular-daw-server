@@ -1,0 +1,8 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "angulardaw",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["src/**/**.entity{.ts,.js}"]
+}

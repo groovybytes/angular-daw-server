@@ -1,11 +1,9 @@
-import { Body, Controller, Delete, Get, Inject, Logger, LoggerService, Param, Post, Put, Query, Req } from '@nestjs/common';
-import { ConfigService } from '../services/config.service';
-import Fuse = require('fuse.js');
-import { InstrumentInfo } from '../../../audiotools/src/app/angular-daw/api/InstrumentInfo';
-import { FuseOptions } from 'fuse.js';
+import {Controller, Get, Inject, Param} from '@nestjs/common';
+import {ConfigService} from '../services/config.service';
+import {FuseOptions} from 'fuse.js';
 import * as winston from 'winston';
-
-
+import {InstrumentInfo} from "../../../audiotools/src/app/api/InstrumentInfo";
+import Fuse = require('fuse.js');
 
 
 const MidiConvert = require("MidiConvert");
